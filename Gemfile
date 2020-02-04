@@ -6,7 +6,7 @@ gem 'whenever', :require => false
 gem 'shoryuken'
 gem 'secure_headers'
 gem 'jwt'
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '3.1.12'
 gem 'aws-sdk-sqs'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'haml-rails'
