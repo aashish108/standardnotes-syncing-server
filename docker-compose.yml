@@ -10,7 +10,7 @@ services:
     ports:
       - ${EXPOSED_PORT}:3000
   db:
-    image: mysql:5.7
+    image: linuxserver/mariadb
     environment:
         MYSQL_DATABASE: '${DB_DATABASE}'
         MYSQL_USER: '${DB_USERNAME}'
