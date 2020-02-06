@@ -1,5 +1,5 @@
 name: Publish Docker
-on: [create]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,4 +11,4 @@ jobs:
         name: aashish108/standardnotes-syncing-server/syncing-server-image:1.0
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
-        registry: docker.pkg.github.com
+        registry: docker.pkg.github.com  
